@@ -45,7 +45,7 @@ body::before {
       rgba(58, 58, 158, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://c4.wallpaperflare.com/wallpaper/322/265/193/valorant-jett-valorant-hd-wallpaper-preview.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -186,4 +186,37 @@ form {
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
+}
+.submit-button:hover{
+  color: lightcoral;
+  background: var(--color-darkblue-alpha);
+}
+
+.play{
+  padding-top: -15px;
+  color: lightcoral;
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+  width: 75%;
+}
+
+.contact{
+  text-align: right;
+  display: inline-block;
+  font-size: 14px;
+  width: 25%;
+  color: lightcoral;
+}
+
+hr{
+  height: 2px;
+  border-color: lightblue;
+}
+
+a:hover{
+  color: #37af65;
+}
+a:active{
+  color: red;
 }
